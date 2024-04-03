@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="./iconUM.jpg" type="image/x-icon" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Davlatlar</title>
+  </head>
+  <body>
+    <form id="search-form">
+      <input
+        type="text"
+        id="search-input"
+        placeholder="Davlat nomini kiriting..."
+      />
+      <button type="submit">Qidirish</button>
+    </form>
+
+    <div class="card-container" id="card-container"></div>
+
+    <template id="country-template">
+      <div class="card">
+        <img class="flag" src="" alt="" />
+        <div class="details">
+          <h1 class="country-name"></h>
+          <p> <span class="population"></span></p>
+          <p>
+             <span class="region"></span>
+          </p>
+          <p> <span class="capital"></span></p>
+          <p>
+            <span class="area"></span> km<sup>2</sup>
+          </p>
+          <p>
+           
+            <span class="borders"></span>
+          </p>
+          <p>
+ 
+            <span class="tld"></span>
+          </p>
+        </div>
+      </div>
+    </template>
+
+    <script src="app.js"></script>
+  </body>
+</html>
